@@ -1,0 +1,116 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    </style>
+  </head>
+  <body>
+    <label for = "username">User Name:</label>
+    <input type = "text" id = "username">
+    <button onclick = "formValidate()">Click</button>
+      <script>
+        function formValidate() {
+          let input = document.getElementById("username");
+          let username = input.value.trim();
+          if(username === ""){
+            alert("please enter the username");
+          } else {
+            alert(username)
+          }
+        }
+      </script>
+  </body>
+</html> 
+
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        .bg-color {
+          background-color: green;
+          font-size: 26;
+          color: white;
+          text-align: center;
+          width: 200px;
+          border: 1px solid orange;
+          padding: 20px;
+          margin: 100px;
+        }
+    </style>
+  </head>
+  <body>
+    <p id = "para">This is paragraph tag</p>
+    <button onclick="addClass()">Click me</button>
+      <script>
+        function addClass() {
+          let para = document.getElementById("para");
+          para.classList.add("bg-color");
+        }
+      </script>
+  </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+ <html>
+  <body>
+      <h1 id = "changeHI">Hi hello how are you</h1>
+      <button onclick="changeText()">Change Text</button>
+      <script>
+          function changeText(){
+            let element = document.getElementById("changeHI");
+            element.innerHTML = "Hello folks";
+          }
+      </script>
+  </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+    <style>
+        .textH1{
+            display: none;
+        }
+    </style>
+
+    <body>
+
+        <h1 class="textH1">
+            I am doing hide and seek game
+        </h1>
+        <button onclick="toggling()">Change</button>
+        <script>
+            function toogling(){
+                let toogle=document.getElementsByClassName('texth1');
+                for(let i=0;i<toogle.lengthli++){
+                    if(toogle[i].style.display==="none")
+                }
+            }
+        </script>
+    </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+    <style>
+        div{
+            border:1px solid black;
+            padding:10px;
+            margin:5px;
+        }
+    </style>
+    <body>
+        <div>This is div 1 first line</div>
+        <div>This is div 2 first line</div>
+        <div>This is div 3 first line</div>
+
+
+        <script>
+            let divTag=document.getElementsByTagName("div");
+            for(let i=0;i<divTag.length;i++){
+                divTag[i].style.background="orange";
+            }
+        </script>
+    </body>
+</html>
+
